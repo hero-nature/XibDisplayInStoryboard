@@ -1,0 +1,6 @@
+framework module BTXibView {
+  umbrella header "BTXibView.h"
+
+  export *
+  module * { export * }
+}

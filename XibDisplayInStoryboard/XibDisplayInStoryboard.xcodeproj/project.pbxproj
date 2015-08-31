@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7533917F1B91BA9900E971A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7533917E1B91BA9900E971A4 /* main.m */; };
+		753391821B91BA9900E971A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753391811B91BA9900E971A4 /* AppDelegate.m */; };
+		753391851B91BA9900E971A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753391841B91BA9900E971A4 /* ViewController.m */; };
+		753391881B91BA9900E971A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753391861B91BA9900E971A4 /* Main.storyboard */; };
+		7533918A1B91BA9900E971A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753391891B91BA9900E971A4 /* Images.xcassets */; };
+		7533918D1B91BA9900E971A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7533918B1B91BA9900E971A4 /* LaunchScreen.xib */; };
+		753391A41B91BAB000E971A4 /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753391A31B91BAB000E971A4 /* XibView.m */; };
+		753391A61B91BAD600E971A4 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753391A51B91BAD600E971A4 /* XibView.xib */; };
+		753391AA1B91BB2000E971A4 /* BTOrderStateActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753391A81B91BB2000E971A4 /* BTOrderStateActionView.m */; };
+		753391AB1B91BB2000E971A4 /* BTOrderStateActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753391A91B91BB2000E971A4 /* BTOrderStateActionView.xib */; };
+		753391AD1B91BC8300E971A4 /* IMG_0565.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 753391AC1B91BC8300E971A4 /* IMG_0565.JPG */; };
+		753391E71B93F76400E971A4 /* BTXibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753391E61B93F76400E971A4 /* BTXibView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		753391791B91BA9900E971A4 /* XibDisplayInStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibDisplayInStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7533917D1B91BA9900E971A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7533917E1B91BA9900E971A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		753391801B91BA9900E971A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		753391811B91BA9900E971A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		753391831B91BA9900E971A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		753391841B91BA9900E971A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		753391871B91BA9900E971A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		753391891B91BA9900E971A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7533918C1B91BA9900E971A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		753391A21B91BAB000E971A4 /* XibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
+		753391A31B91BAB000E971A4 /* XibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
+		753391A51B91BAD600E971A4 /* XibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		753391A71B91BB2000E971A4 /* BTOrderStateActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOrderStateActionView.h; sourceTree = "<group>"; };
+		753391A81B91BB2000E971A4 /* BTOrderStateActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOrderStateActionView.m; sourceTree = "<group>"; };
+		753391A91B91BB2000E971A4 /* BTOrderStateActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTOrderStateActionView.xib; sourceTree = "<group>"; };
+		753391AC1B91BC8300E971A4 /* IMG_0565.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0565.JPG; sourceTree = "<group>"; };
+		753391E61B93F76400E971A4 /* BTXibView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BTXibView.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753391761B91BA9900E971A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753391E71B93F76400E971A4 /* BTXibView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753391701B91BA9900E971A4 = {
+			isa = PBXGroup;
+			children = (
+				7533917B1B91BA9900E971A4 /* XibDisplayInStoryboard */,
+				7533917A1B91BA9900E971A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7533917A1B91BA9900E971A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753391791B91BA9900E971A4 /* XibDisplayInStoryboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7533917B1B91BA9900E971A4 /* XibDisplayInStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				753391801B91BA9900E971A4 /* AppDelegate.h */,
+				753391811B91BA9900E971A4 /* AppDelegate.m */,
+				753391831B91BA9900E971A4 /* ViewController.h */,
+				753391841B91BA9900E971A4 /* ViewController.m */,
+				753391A21B91BAB000E971A4 /* XibView.h */,
+				753391A31B91BAB000E971A4 /* XibView.m */,
+				753391A51B91BAD600E971A4 /* XibView.xib */,
+				753391A71B91BB2000E971A4 /* BTOrderStateActionView.h */,
+				753391A81B91BB2000E971A4 /* BTOrderStateActionView.m */,
+				753391A91B91BB2000E971A4 /* BTOrderStateActionView.xib */,
+				753391861B91BA9900E971A4 /* Main.storyboard */,
+				753391E61B93F76400E971A4 /* BTXibView.framework */,
+				753391891B91BA9900E971A4 /* Images.xcassets */,
+				7533918B1B91BA9900E971A4 /* LaunchScreen.xib */,
+				753391AC1B91BC8300E971A4 /* IMG_0565.JPG */,
+				7533917C1B91BA9900E971A4 /* Supporting Files */,
+			);
+			path = XibDisplayInStoryboard;
+			sourceTree = "<group>";
+		};
+		7533917C1B91BA9900E971A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7533917D1B91BA9900E971A4 /* Info.plist */,
+				7533917E1B91BA9900E971A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753391781B91BA9900E971A4 /* XibDisplayInStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7533919C1B91BA9900E971A4 /* Build configuration list for PBXNativeTarget "XibDisplayInStoryboard" */;
+			buildPhases = (
+				753391751B91BA9900E971A4 /* Sources */,
+				753391761B91BA9900E971A4 /* Frameworks */,
+				753391771B91BA9900E971A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XibDisplayInStoryboard;
+			productName = XibDisplayInStoryboard;
+			productReference = 753391791B91BA9900E971A4 /* XibDisplayInStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753391711B91BA9900E971A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Luxi Innovation Co. Ltd";
+				TargetAttributes = {
+					753391781B91BA9900E971A4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 753391741B91BA9900E971A4 /* Build configuration list for PBXProject "XibDisplayInStoryboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753391701B91BA9900E971A4;
+			productRefGroup = 7533917A1B91BA9900E971A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753391781B91BA9900E971A4 /* XibDisplayInStoryboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753391771B91BA9900E971A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753391881B91BA9900E971A4 /* Main.storyboard in Resources */,
+				753391AB1B91BB2000E971A4 /* BTOrderStateActionView.xib in Resources */,
+				7533918D1B91BA9900E971A4 /* LaunchScreen.xib in Resources */,
+				753391AD1B91BC8300E971A4 /* IMG_0565.JPG in Resources */,
+				753391A61B91BAD600E971A4 /* XibView.xib in Resources */,
+				7533918A1B91BA9900E971A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753391751B91BA9900E971A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753391AA1B91BB2000E971A4 /* BTOrderStateActionView.m in Sources */,
+				753391851B91BA9900E971A4 /* ViewController.m in Sources */,
+				753391821B91BA9900E971A4 /* AppDelegate.m in Sources */,
+				753391A41B91BAB000E971A4 /* XibView.m in Sources */,
+				7533917F1B91BA9900E971A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		753391861B91BA9900E971A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753391871B91BA9900E971A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7533918B1B91BA9900E971A4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7533918C1B91BA9900E971A4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7533919A1B91BA9900E971A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7533919B1B91BA9900E971A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7533919D1B91BA9900E971A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XibDisplayInStoryboard",
+				);
+				INFOPLIST_FILE = XibDisplayInStoryboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7533919E1B91BA9900E971A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XibDisplayInStoryboard",
+				);
+				INFOPLIST_FILE = XibDisplayInStoryboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753391741B91BA9900E971A4 /* Build configuration list for PBXProject "XibDisplayInStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7533919A1B91BA9900E971A4 /* Debug */,
+				7533919B1B91BA9900E971A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7533919C1B91BA9900E971A4 /* Build configuration list for PBXNativeTarget "XibDisplayInStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7533919D1B91BA9900E971A4 /* Debug */,
+				7533919E1B91BA9900E971A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753391711B91BA9900E971A4 /* Project object */;
+}
